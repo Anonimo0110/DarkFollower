@@ -1,28 +1,10 @@
 #!/bin/bash
 # darkfollow v1.0
+# 
 # by Lzz; TheCat
 # script ainda em desenvolvimento...
 
-
-echo -e "iniciando a instalação, aguarde"
-echo -e "[/]1%"
-echo -e "[//]10%"
-echo -e "[///]20%"
-echo -e "[////]30%"
-echo -e "[/////]40%"
-echo -e "[//////]50%"
-echo -e "[///////]60%"
-echo -e "[[///////]70%"
-echo -e "[/////////]80%"
-echo -e "[//////////]90%"
-echo -e "[///////////]100%"
-
-
-
-
-
-
-
+clear
 string4=$(openssl rand -hex 32 | cut -c 1-4)
 string8=$(openssl rand -hex 32  | cut -c 1-8)
 string12=$(openssl rand -hex 32 | cut -c 1-12)
@@ -36,25 +18,17 @@ var=$(curl -i -s -H "$header" https://i.instagram.com/api/v1/si/fetch_headers/?c
 var2=$(echo $var | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 ig_sig="4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178"
 
-echo -e "darkfollow v1.0"
-echo -e "by Lzz; TheCat"
-echo -e "iniciando script"
-
+echo "inciando"
 
 banner() {
-
-clear
-
 echo "darkfollow v1.0
 by Lzz; TheCat
-script ainda em desenvolvimento...
+script ainda em desenvolvimento..."
 
-
-echo -e "╔══════•ೋೋ•══════╗"
-echo -e "                        "
-echo -e "  seja bem vindo!       "
-echo -e "                        "
-
+echo -e "╔══════•ೋೋ•══════╗ "
+echo -e "                                                                   "
+echo -e "  seja bem vindo!                                   "
+echo -e "                                                                   "
 echo -e "╚══════•ೋೋ•══════╝"
 
 }
