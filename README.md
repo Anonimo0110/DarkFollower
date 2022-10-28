@@ -7,7 +7,7 @@ $ pkg install curl
 
 $ pkg install git
 
-$ git clone 
+$ git clone https://github.com/LzzTheCat/DarkFollower/blob/main/README.md
 
 $ cd darkfollower
 
