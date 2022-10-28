@@ -17,7 +17,7 @@ $ pkg install curl
 
 $ pkg install git
 
-$ git clone 
+$ git clone https://github.com/Anonimo0110/DarkFollower
 
 $ cd darkfollower
 
