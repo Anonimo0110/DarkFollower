@@ -19,7 +19,7 @@ $ pkg install git
 
 $ git clone https://github.com/Anonimo0110/DarkFollower
 
-$ cd darkfollower
+$ cd DarkFollower
 
 $ chmod +x darkfollower.sh
 
