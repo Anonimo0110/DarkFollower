@@ -219,12 +219,12 @@ printf " \n\e[1;33m - fique sem mexer na sua conta do Instagram por 24 horas e d
 
 exit 1
 else
-printf " \e[1;92mSucesso\e[0m\n"
+printf " \e[1;92m Sucesso\e[0m\n"
 fi
 sleep 3
 
 done
-printf " \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 60 secs...\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Pausa de 60 segundos...\e[0m\n"
 sleep 60
 #unfollow
 for celeb in $(cat celeb_id); do
@@ -239,7 +239,7 @@ printf " \e[1;33m [-] você ja tentou muito por hoje, tente novamente outro dia.
 printf " \e[1;33m [-] Definimos um limite para evitar o bloqueio da sua conta do instagram.\n"
 exit 1
 else
-printf " \e[1;92mLogado com sucesso\e[0m\n"
+printf " \e[1;92m Sucesso\e[0m\n"
 fi
 
 sleep 3
