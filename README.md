@@ -4,6 +4,10 @@ esse script não se responsabiliza por contas perdidas
 use por sua conta e risco!
 
 
+
+
+
+
 # instalação 
 $ pkg up -y
 
@@ -22,3 +26,10 @@ $ chmod +x darkfollower.sh
 $ termux-wake-lock
 
 $ bash darkfollower.sh
+
+
+
+
+
+# Redes Sociais
+@Lzzkkkj
