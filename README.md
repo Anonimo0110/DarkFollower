@@ -9,7 +9,7 @@ use por sua conta e risco!
 
 
 # instalação 
-$ pkg up -y
+$ apt update && apt upgrade -y
 
 $ pkg install openssl-tool
 
